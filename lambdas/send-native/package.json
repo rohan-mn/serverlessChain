@@ -1,0 +1,12 @@
+{
+  "type": "module",
+  "scripts": {
+    "build": "esbuild index.mjs --bundle --platform=node --format=esm --target=node20 --outfile=dist/index.mjs"
+  },
+  "dependencies": {
+    "viem": "^2.13.8"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.2"
+  }
+}
